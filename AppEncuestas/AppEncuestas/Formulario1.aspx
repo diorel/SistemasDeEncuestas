@@ -65,7 +65,7 @@ Favor de anotar el nombre del gerente que le da atención: ( )
     <section id="formulario">               
         <table>
             <tr>
-             <td>1-. Las propuestas que el gerente de unidad de negocio ha presentado a sus necesidades son:</td>
+             <td>1-. Las propuestas que el gerente de unidad de negocio ha presentado a sus necesidades sonx:</td>
             </tr>
             <tr>
              <td>
