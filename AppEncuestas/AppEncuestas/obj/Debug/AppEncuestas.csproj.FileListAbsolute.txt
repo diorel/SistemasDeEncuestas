@@ -36,3 +36,6 @@ C:\Users\julio.reyes.CORPAGENTIA\Documents\GitHub\SistemasDeEncuestas\AppEncuest
 C:\Users\julio.reyes.CORPAGENTIA\Documents\GitHub\SistemasDeEncuestas\AppEncuestas\AppEncuestas\obj\Debug\AppEncuestas.csprojResolveAssemblyReference.cache
 C:\Users\julio.reyes.CORPAGENTIA\Documents\GitHub\SistemasDeEncuestas\AppEncuestas\AppEncuestas\obj\Debug\AppEncuestas.dll
 C:\Users\julio.reyes.CORPAGENTIA\Documents\GitHub\SistemasDeEncuestas\AppEncuestas\AppEncuestas\obj\Debug\AppEncuestas.pdb
+C:\Users\raul.cortes\Documents\GitHub\SistemasDeEncuestas\AppEncuestas\AppEncuestas\obj\Debug\AppEncuestas.csprojResolveAssemblyReference.cache
+C:\Users\raul.cortes\Documents\GitHub\SistemasDeEncuestas\AppEncuestas\AppEncuestas\obj\Debug\AppEncuestas.dll
+C:\Users\raul.cortes\Documents\GitHub\SistemasDeEncuestas\AppEncuestas\AppEncuestas\obj\Debug\AppEncuestas.pdb

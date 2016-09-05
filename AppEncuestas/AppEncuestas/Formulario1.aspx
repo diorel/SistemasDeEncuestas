@@ -55,8 +55,7 @@
        
           <hr />
         <p>
-           En los servicios que ha recibido por parte del área de Reclutamiento y Selección:
-Favor de anotar el nombre del gerente que le da atención: ( )
+       En los servicios que ha recibido por parte del área de Reclutamiento y Selección:
         </p>
             <hr />
     </div>
@@ -157,8 +156,6 @@ Favor de anotar el nombre del gerente que le da atención: ( )
      <hr />
 
 
-
-
         <table>
 
                <tr>
@@ -195,60 +192,22 @@ Favor de anotar el nombre del gerente que le da atención: ( )
                 </td>
             </tr>
 
-            <tr>
-                
-                  
-                   </asp:RadioButtonList>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                   
-                </td>
-            </tr>
-            <tr>
-                
-                   </asp:RadioButtonList>
-            </tr>
-
-            <tr>
-                
-                   </asp:RadioButtonList>
-            </tr>
-            <tr>
-              
-                   </asp:RadioButtonList>
-            </tr>
-
-            <tr>
-                
-                   </asp:RadioButtonList>
-            </tr>
-           
-                   </asp:RadioButtonList>
-            </tr>
-
-
-
-
+       
         </table>
-      <br />
-                <img src="img/tbala2.png" />
+        <br />
+        <img src="img/tbala2.png" />
 
         <br />
 
-
-
-        
-               <hr />
+        <hr />
         <p>
-       Preguntas abiertas
+            Preguntas abiertas
         </p>
-         <hr />        
+        <hr />
         <br />
 
 
-             <%--   esta es otra parte--%>
+        <%--   esta es otra parte--%>
 
              <table>
             <tr>
