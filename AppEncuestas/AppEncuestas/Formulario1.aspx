@@ -34,21 +34,30 @@
                     <asp:Label ID="Label3" runat="server" Text="Nombre:"></asp:Label></td>
                 <td></td>
                 <td>
-                    <asp:TextBox ID="TextBox6" runat="server" Width="204px"></asp:TextBox></td>
+                    <asp:TextBox ID="TextBox6" runat="server" Width="204px"></asp:TextBox>
+                       <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="TextBox6" ErrorMessage="El campo es requerido" ForeColor="Red">
+                    </asp:RequiredFieldValidator>
+                </td>
             </tr>
               <tr>
                 <td>
                     <asp:Label ID="Label5" runat="server" Text="Empresa:"></asp:Label></td>
                 <td></td>
                 <td>
-                    <asp:TextBox ID="TextBox8" runat="server" Width="204px"></asp:TextBox></td>
+                    <asp:TextBox ID="TextBox8" runat="server" Width="204px"></asp:TextBox>
+                            <asp:RequiredFieldValidator ID="RequiredFieldValidator4" runat="server" ControlToValidate="TextBox8" ErrorMessage="El campo es requerido" ForeColor="Red">
+                    </asp:RequiredFieldValidator>
+                </td>
             </tr>
             <tr>
                 <td>
                     <asp:Label ID="Label4" runat="server" Text="Gerente:"></asp:Label></td>
                 <td></td>
                 <td>
-                    <asp:TextBox ID="TextBox7" runat="server" Width="204px"></asp:TextBox></td>
+                    <asp:TextBox ID="TextBox7" runat="server" Width="204px"></asp:TextBox>
+                        <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ControlToValidate="TextBox7" ErrorMessage="El campo es requerido" ForeColor="Red">
+                    </asp:RequiredFieldValidator>
+                </td>
             </tr>
         </table>
         <hr />
@@ -69,12 +78,14 @@
             <tr>
              <td>
                    <asp:RadioButtonList ID="Respuesta1RadioButtonList" runat="server" Width="521px">
-                       <asp:ListItem Value="100">Muy satisfactorio</asp:ListItem>
-                       <asp:ListItem Value="200" >Satisfactorio</asp:ListItem>
-                       <asp:ListItem Value="300" >Neutral</asp:ListItem>
-                       <asp:ListItem Value="400">Poco satisfactorio</asp:ListItem>
-                       <asp:ListItem Value="500">Muy Insatisfactorio</asp:ListItem>
+                       <asp:ListItem Text="Muy satisfactorio" Value="100"></asp:ListItem>
+                       <asp:ListItem Text="Satisfactorio" Value="90"></asp:ListItem>
+                       <asp:ListItem Text="Neutral" Value="70"></asp:ListItem>
+                       <asp:ListItem Text="Poco satisfactorio" Value="50"></asp:ListItem>
+                       <asp:ListItem Text="Muy Insatisfactorio" Value="20" ></asp:ListItem>
                    </asp:RadioButtonList>
+                      <asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" ControlToValidate="Respuesta1RadioButtonList" ErrorMessage="El campo es requerido" ForeColor="Red">
+                    </asp:RequiredFieldValidator>
                  <br />
                 </td>
             </tr>
@@ -86,12 +97,14 @@
             <tr>
                 <td>
                     <asp:RadioButtonList ID="RadioButtonList1" runat="server" Width="521px">
-                     <asp:ListItem Value="100">Muy satisfactorio</asp:ListItem>
-                       <asp:ListItem Value="200" >Satisfactorio</asp:ListItem>
-                       <asp:ListItem Value="300" >Neutral</asp:ListItem>
-                       <asp:ListItem Value="400">Poco satisfactorio</asp:ListItem>
-                       <asp:ListItem Value="500">Muy Insatisfactorio</asp:ListItem>
+                       <asp:ListItem Text="Muy satisfactorio" Value="100"></asp:ListItem>
+                       <asp:ListItem Text="Satisfactorio" Value="90"></asp:ListItem>
+                       <asp:ListItem Text="Neutral" Value="70"></asp:ListItem>
+                       <asp:ListItem Text="Poco satisfactorio" Value="50"></asp:ListItem>
+                       <asp:ListItem Text="Muy Insatisfactorio" Value="20" ></asp:ListItem>
                    </asp:RadioButtonList>
+                    <asp:RequiredFieldValidator ID="RequiredFieldValidator5" runat="server" ControlToValidate="RadioButtonList1" ErrorMessage="El campo es requerido" ForeColor="Red">
+                    </asp:RequiredFieldValidator>
                     <br />
                 </td>
             </tr>
@@ -101,12 +114,14 @@
             <tr>
                 <td>
                     <asp:RadioButtonList ID="RadioButtonList2" runat="server" Width="521px">
-                      <asp:ListItem>Muy satisfactorio</asp:ListItem>
-                       <asp:ListItem>Satisfactorio</asp:ListItem>
-                       <asp:ListItem>Neutral</asp:ListItem>
-                       <asp:ListItem>Poco satisfactorio</asp:ListItem>
-                       <asp:ListItem>Muy Insatisfactorio</asp:ListItem>
+                       <asp:ListItem Text="Muy satisfactorio" Value="100"></asp:ListItem>
+                       <asp:ListItem Text="Satisfactorio" Value="90"></asp:ListItem>
+                       <asp:ListItem Text="Neutral" Value="70"></asp:ListItem>
+                       <asp:ListItem Text="Poco satisfactorio" Value="50"></asp:ListItem>
+                       <asp:ListItem Text="Muy Insatisfactorio" Value="20" ></asp:ListItem>
                    </asp:RadioButtonList>
+                    <asp:RequiredFieldValidator ID="RequiredFieldValidator6" runat="server" ControlToValidate="RadioButtonList2" ErrorMessage="El campo es requerido" ForeColor="Red">
+                    </asp:RequiredFieldValidator>
                     <br />
                 </td>
             </tr>
@@ -118,12 +133,14 @@
             <tr>
                 <td>
                     <asp:RadioButtonList ID="RadioButtonList3" runat="server" Width="521px">
-                   <asp:ListItem>Muy satisfactorio</asp:ListItem>
-                       <asp:ListItem>Satisfactorio</asp:ListItem>
-                       <asp:ListItem>Neutral</asp:ListItem>
-                       <asp:ListItem>Poco satisfactorio</asp:ListItem>
-                       <asp:ListItem>Muy Insatisfactorio</asp:ListItem>
+                      <asp:ListItem Text="Muy satisfactorio" Value="100"></asp:ListItem>
+                       <asp:ListItem Text="Satisfactorio" Value="90"></asp:ListItem>
+                       <asp:ListItem Text="Neutral" Value="70"></asp:ListItem>
+                       <asp:ListItem Text="Poco satisfactorio" Value="50"></asp:ListItem>
+                       <asp:ListItem Text="Muy Insatisfactorio" Value="20" ></asp:ListItem>
                    </asp:RadioButtonList>
+                     <asp:RequiredFieldValidator ID="RequiredFieldValidator7" runat="server" ControlToValidate="RadioButtonList3" ErrorMessage="El campo es requerido" ForeColor="Red">
+                    </asp:RequiredFieldValidator>
                     <br />
 
                 </td>
@@ -136,12 +153,14 @@
             <tr>
                 <td>
                      <asp:RadioButtonList ID="RadioButtonList4" runat="server" Width="521px">
-                        <asp:ListItem>Muy satisfactorio</asp:ListItem>
-                       <asp:ListItem>Satisfactorio</asp:ListItem>
-                       <asp:ListItem>Neutral</asp:ListItem>
-                       <asp:ListItem>Poco satisfactorio</asp:ListItem>
-                       <asp:ListItem>Muy Insatisfactorio</asp:ListItem>
+                       <asp:ListItem Text="Muy satisfactorio" Value="100"></asp:ListItem>
+                       <asp:ListItem Text="Satisfactorio" Value="90"></asp:ListItem>
+                       <asp:ListItem Text="Neutral" Value="70"></asp:ListItem>
+                       <asp:ListItem Text="Poco satisfactorio" Value="50"></asp:ListItem>
+                       <asp:ListItem Text="Muy Insatisfactorio" Value="20" ></asp:ListItem>
                    </asp:RadioButtonList>
+                      <asp:RequiredFieldValidator ID="RequiredFieldValidator8" runat="server" ControlToValidate="RadioButtonList4" ErrorMessage="El campo es requerido" ForeColor="Red">
+                    </asp:RequiredFieldValidator>
                     <br />
                 </td>
             </tr>    
@@ -166,12 +185,15 @@
             <tr>
                 <td>
                     <asp:RadioButtonList ID="RadioButtonList5" runat="server" Width="521px">
-                       <asp:ListItem>Muy satisfactorio</asp:ListItem>
-                       <asp:ListItem>Satisfactorio</asp:ListItem>
-                       <asp:ListItem>Neutral</asp:ListItem>
-                       <asp:ListItem>Poco satisfactorio</asp:ListItem>
-                       <asp:ListItem>Muy Insatisfactorio</asp:ListItem>
+                       <asp:ListItem Text="Muy satisfactorio" Value="100"></asp:ListItem>
+                       <asp:ListItem Text="Satisfactorio" Value="90"></asp:ListItem>
+                       <asp:ListItem Text="Neutral" Value="70"></asp:ListItem>
+                       <asp:ListItem Text="Poco satisfactorio" Value="50"></asp:ListItem>
+                       <asp:ListItem Text="Muy Insatisfactorio" Value="20" ></asp:ListItem>
                    </asp:RadioButtonList>
+                         <asp:RequiredFieldValidator ID="RequiredFieldValidator9" runat="server" ControlToValidate="RadioButtonList5" ErrorMessage="El campo es requerido" ForeColor="Red">
+                    </asp:RequiredFieldValidator>
+
                     <br />
                 </td>
             </tr>
@@ -183,12 +205,14 @@
             <tr>
                 <td>
                      <asp:RadioButtonList ID="RadioButtonList6" runat="server" Width="521px">
-                       <asp:ListItem>Muy satisfactorio</asp:ListItem>
-                       <asp:ListItem>Satisfactorio</asp:ListItem>
-                       <asp:ListItem>Neutral</asp:ListItem>
-                       <asp:ListItem>Poco satisfactorio</asp:ListItem>
-                       <asp:ListItem>Muy Insatisfactorio</asp:ListItem>
+                       <asp:ListItem Text="Muy satisfactorio" Value="100"></asp:ListItem>
+                       <asp:ListItem Text="Satisfactorio" Value="90"></asp:ListItem>
+                       <asp:ListItem Text="Neutral" Value="70"></asp:ListItem>
+                       <asp:ListItem Text="Poco satisfactorio" Value="50"></asp:ListItem>
+                       <asp:ListItem Text="Muy Insatisfactorio" Value="20" ></asp:ListItem>
                    </asp:RadioButtonList>
+                         <asp:RequiredFieldValidator ID="RequiredFieldValidator10" runat="server" ControlToValidate="RadioButtonList6" ErrorMessage="El campo es requerido" ForeColor="Red">
+                    </asp:RequiredFieldValidator>
                 </td>
             </tr>
 
@@ -263,12 +287,14 @@
             <tr>
                 <td>
                     <asp:RadioButtonList ID="RadioButtonList17" runat="server" Width="521px">
-                     <asp:ListItem>Muy satisfactorio</asp:ListItem>
-                       <asp:ListItem>Satisfactorio</asp:ListItem>
-                       <asp:ListItem>Neutral</asp:ListItem>
-                       <asp:ListItem>Poco satisfactorio</asp:ListItem>
-                       <asp:ListItem>Muy Insatisfactorio</asp:ListItem>
+                       <asp:ListItem Text="Muy satisfactorio" Value="100"></asp:ListItem>
+                       <asp:ListItem Text="Satisfactorio" Value="90"></asp:ListItem>
+                       <asp:ListItem Text="Neutral" Value="70"></asp:ListItem>
+                       <asp:ListItem Text="Poco satisfactorio" Value="50"></asp:ListItem>
+                       <asp:ListItem Text="Muy Insatisfactorio" Value="20" ></asp:ListItem>
                    </asp:RadioButtonList>
+                    <asp:RequiredFieldValidator ID="RequiredFieldValidator11" runat="server" ControlToValidate="RadioButtonList17" ErrorMessage="El campo es requerido" ForeColor="Red">
+                    </asp:RequiredFieldValidator>
                     <br />
                 </td>
             </tr>
@@ -283,10 +309,10 @@
                      </td>
                  </tr>
                              <tr>
-                                 <br />
+                   <br />
                <td>
                    <br />
-        D) Comentarios Positivos del servicio:
+         Comentarios Positivos del servicio:
                </td>
             </tr>
      
@@ -299,7 +325,7 @@
                              <tr>
                <td>
                    <br />
-        E) Comentarios Negativos del servicio:
+         Comentarios Negativos del servicio:
                </td>
             </tr>
     

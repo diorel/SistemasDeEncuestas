@@ -52,12 +52,11 @@
             <tr>
              <td>
                    <asp:RadioButtonList ID="Respuesta1RadioButtonList" runat="server" Width="521px">
-                       <asp:ListItem Value="Excelente capacidad de respuesta">Excelente capacidad de respuesta </asp:ListItem>
-                       <asp:ListItem Value="Gran capacidad de respuesta"> Gran capacidad de respuesta</asp:ListItem>
-                       <asp:ListItem Value="Capacidad de respuesta moderada"> Capacidad de respuesta moderada</asp:ListItem>
-                       <asp:ListItem Value="Sin demasiada capacidad de respuesta"> Sin demasiada capacidad de respuesta</asp:ListItem>
-                       <asp:ListItem value="Nula capacidad de respuesta"> Nula capacidad de respuesta</asp:ListItem>
-                       <asp:ListItem Value="No es aplicable">No es aplicable</asp:ListItem>
+                       <asp:ListItem Text="Muy satisfactorio" Value="100"></asp:ListItem>
+                       <asp:ListItem Text="Satisfactorio" Value="90"></asp:ListItem>
+                       <asp:ListItem Text="Neutral" Value="70"></asp:ListItem>
+                       <asp:ListItem Text="Poco satisfactorio" Value="50"></asp:ListItem>
+                       <asp:ListItem Text="Muy Insatisfactorio" Value="20" ></asp:ListItem>
                    </asp:RadioButtonList>
                 </td>
             </tr>
@@ -70,10 +69,11 @@
             <tr>
                 <td>
                     <asp:RadioButtonList ID="Respuesta2RadioButtonList" runat="server" Width="521px">
-                       <asp:ListItem Value="Estoy satisfecho (a)">Estoy satisfecho (a)</asp:ListItem>
-                       <asp:ListItem Value="Puedo Trabajar">Puedo Trabajar</asp:ListItem>
-                       <asp:ListItem Value="No me resolvió el problema" >No me resolvió el problema</asp:ListItem>
-                       <asp:ListItem Value="No tiene conocimiento de las tecnologías">No tiene conocimiento de las tecnologías</asp:ListItem>
+                        <asp:ListItem Text="Muy satisfactorio" Value="100"></asp:ListItem>
+                       <asp:ListItem Text="Satisfactorio" Value="90"></asp:ListItem>
+                       <asp:ListItem Text="Neutral" Value="70"></asp:ListItem>
+                       <asp:ListItem Text="Poco satisfactorio" Value="50"></asp:ListItem>
+                       <asp:ListItem Text="Muy Insatisfactorio" Value="20" ></asp:ListItem>
                    </asp:RadioButtonList>
                 </td>
             </tr>
@@ -85,9 +85,11 @@
             <tr>
                 <td>
                     <asp:RadioButtonList ID="Respuesta3RadioButtonList" runat="server" Width="521px">
-                       <asp:ListItem Value="Exelente">Excelente</asp:ListItem>
-                       <asp:ListItem Value="Bueno">Bueno</asp:ListItem>
-                       <asp:ListItem Value="Pobre" >Pobre</asp:ListItem>
+                       <asp:ListItem Text="Muy satisfactorio" Value="100"></asp:ListItem>
+                       <asp:ListItem Text="Satisfactorio" Value="90"></asp:ListItem>
+                       <asp:ListItem Text="Neutral" Value="70"></asp:ListItem>
+                       <asp:ListItem Text="Poco satisfactorio" Value="50"></asp:ListItem>
+                       <asp:ListItem Text="Muy Insatisfactorio" Value="20" ></asp:ListItem>
                    </asp:RadioButtonList>
                 </td>
             </tr>        
